@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary of a Wimpy Kid - Book Prices</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Diary of a Wimpy Kid - Book Collection</h1>
+        <p>Find the latest prices for your favorite books!</p>
+    </header>
+    <section id="book-list">
+        <div class="book-card" onclick="showModal('No Brainer', '£7.51 and link https://www.amazon.co.uk/Diary-Wimpy-Kid-Brainer-Book/dp/0241583152/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=')">
+            <img src="no-brainer.png" alt="No Brainer">
+            <h2>No Brainer</h2>
+            <p class="price">Paperback: £7.51 Hardcover: £8.50</p>
+        </div>
+        <div class="book-card" onclick="showModal('Hot Mess', '£7.49 and link https://www.amazon.co.uk/Diary-Wimpy-Kid-Mess-Book/dp/0241583160/ref=tmm_hrd_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.FDIE6-qni-KtkqYJl1T-JZ6km466Mn3qaigV291sdu9kQWsxOslGY5dGWzZS89R9QWmZENHB2sp2eK0AajWWm8VBJHdsT8kJphckBaTaf_I-LKuSVhy82A-2eKaiZ4-lxsUgWSQ2GzZLxd3NpQsGNfICQOZVlAFpVS6KIqxehVwxI_Z6xml7aXaiY1SB83tQK7aGTzYtnq6Sjl9-7ha4fYHvvLaokQDk0s9pqoczhoI.EytsHUzT1H4niDzu7cI7dTXj0Wxw0zJRNfV3PgYfwz0&qid=1730829641&sr=8-1')">
+            <img src="hot-mess.png" alt="Hot Mess">
+            <h2>Hot Mess</h2>
+            <p class="price">Hardcover: £7.49</p>
+        </div>
+        <div class="book-card" onclick="showModal('Movie Diary: The Next Chapter', '£11.09 and linkhttps://www.amazon.co.uk/Wimpy-Kid-Movie-Diary-Chapter/dp/0141388196/ref=tmm_hrd_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.pP88GV7RbDrg5skfFDa5nARHkQdxGNQgHBbTajhtgjA.bh8gpJJVA2mBBRyeVlrcIlP6z6u-YqlSTYnbRr7O7Bo&qid=1730829670&sr=8-1')">
+            <img src="movie-diary-next-chapter.png" alt="Movie Diary The Next Chapter">
+            <h2>Movie Diary: The Next Chapter</h2>
+            <p class="price">Hardcover: £11.09</p>
+        </div>
+        <div class="book-card" onclick="showModal('Movie Diary: How Greg Heffley went Hollywood', '£0.50 and link https://www.amazon.co.uk/Wimpy-Kid-Movie-Diary-Hollywood/dp/0141344504/ref=sr_1_1?crid=1FOCH80YAQSC9&dib=eyJ2IjoiMSJ9.Xb28Lto1pBRDLEjW3wQRoXsAUMHeL0mp7gm75eGkFeBFFbmf4gUXJRXNPQG7jMnE.AIyCm8g4zp1dQg_-KgmHgHU462XxIeklcOhFT51rknk&dib_tag=se&keywords=Movie+Diary+How+Greg+Heffley+went+Hollywood&qid=1730829695&sprefix=movie+diary+how+greg+heffley+went+hollywood%2Caps%2C110&sr=8-1')">
+            <img src="movie-diary-hollywood.png" alt="Movie Diary How Greg Heffley went Hollywood">
+            <h2>Movie Diary: How Greg Heffley went Hollywood</h2>
+            <p class="price">Paperback: £0.50 Hardcover: £12.99</p>
+        </div>
+        <div class="book-card" onclick="showModal('Rowley Jefferson\'s Awesome Friendly Spooky Stories', '£4.00 and link https://www.amazon.co.uk/Jeffersons-Awesome-Friendly-Stories-Journal/dp/0241530415/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.fY3zw3BWzOFZ22pUPcTm6kSKosZBn6ZNjjKpUjDBXE8MNBfjkWzarKxPb0zqN1ta50EFAlrENk_VgKLS3tMUcg0ils1CNb6XIHglTwdWO1CBsc63InOKVcXuCmPnjtxtCpO6C6mF51u_oPQJElZ-rZeerZ7q2D1ZihQl_92kFCy9d2EHzcprdpBKkEFhAiXKFqHYmgHfL0uoUQSBRxFmF2DpMPcwf7ZhrgXDMn5gYe8.ev7W8DU_03CA0yL6UeG7KMUdvGkf1M9hGBCzl2MaUN0&qid=1730829759&sr=8-1')">
+            <img src="awesome-friendly-spooky.png" alt="Rowley Jefferson's Awesome Friendly Spooky Stories">
+            <h2>Rowley Jefferson's Awesome Friendly Spooky Stories</h2>
+            <p class="price">Paperback: £4.00 Hardcover: £4.73</p>
+        </div>
+        <div class="book-card" onclick="showModal('Rowley Jefferson\'s Awesome Friendly Adventure', '£7.49 and link https://www.amazon.co.uk/Jeffersons-Awesome-Friendly-Adventure-Journal/dp/0241458838/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.fY3zw3BWzOFZ22pUPcTm6kSKosZBn6ZNjjKpUjDBXE8MNBfjkWzarKxPb0zqN1ta50EFAlrENk_VgKLS3tMUcg0ils1CNb6XIHglTwdWO1CBsc63InOKVcXuCmPnjtxtCpO6C6mF51u_oPQJElZ-rZeerZ7q2D1ZihQl_92kFCy9d2EHzcprdpBKkEFhAiXKFqHYmgHfL0uoUQSBRxFmF2DpMPcwf7ZhrgXDMn5gYe8.ev7W8DU_03CA0yL6UeG7KMUdvGkf1M9hGBCzl2MaUN0&qid=1730829759&sr=8-2')">
+            <img src="awesome-friendly-adventure.png" alt="Rowley Jefferson's Awesome Friendly Adventure">
+            <h2>Rowley Jefferson's Awesome Friendly Adventure</h2>
+            <p class="price">Paperback: £7.24 Hardcover: £12.99</p>
+        </div>
+    </section>
+
+    <!-- Modal for Book Details -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-price"></p>
+        </div>
+    </div>
+</body>
+</html>
